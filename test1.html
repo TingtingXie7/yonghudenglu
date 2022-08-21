@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+	     form {
+	     	width: 255px;
+	     	margin: 0 auto;
+	     }
+	</style>    
+
+</head>
+<body  bgcolor="F0F8FF">
+    <!-- 表单域 -->
+	<form action="" method="post">
+	      <!-- 线框 -->
+	      <fieldset >
+	        <!-- 线框的标题 -->
+	           <legend>用户登录</legend>
+	           用户名：
+	           <input type="text" placeholder="请输入用户名" name="username"><p>
+
+	           <hr>
+	           密码：
+	           <input type="password" placeholder="请输入密码" name="password">
+
+	           <hr>
+	           头像：
+	           <input type="file" name="head">
+
+	           <hr>
+	           生日：
+	           <input type="datetime-local">
+
+	           <hr>
+	           喜欢的颜色：
+	           <input type="color">
+
+	           <hr>
+	           幸运数字：
+	           <input type="number">
+
+	           <hr>
+	           性别：<!-- 单选 -->
+	           男<input type="radio" name="sex" value="0">
+	           女<input type="radio" name="sex" value="1">
+	           保密<input type="radio" name="sex" value="2">
+
+	           <hr>
+	           爱好：<!-- 多选 -->
+	           打篮球<input type="checkbox" name="1">
+	           足球<input type="checkbox" name="2">
+	           羽毛球<input type="checkbox" name="3">
+	           听音乐<input type="checkbox" name="4">
+
+	           <hr>
+	           籍贯：<!-- 多选 -->
+	           <select name="" id="">
+	                 <option valu="">北京</option>
+	                 <option valu="">上海</option>
+	                 <option valu="">深圳</option>
+	                 <option valu="">广州</option>
+	                 <option valu="">杭州</option>
+	                 <option valu="">南京</option>
+	                 <option valu="">武汉</option>
+	                 <option valu="">成都</option>
+	                 <option valu="">贵州</option>
+	                 <option valu="">安徽</option>
+	                 <option valu="">江西</option>
+	           	     <option valu="">南宁</option>
+	           </select>
+	      	
+               <hr>
+               <textarea cols="50" rows="20" placeholder="个人简介"></textarea><p>
+               <input type="reset" value= "重置">
+               <input type="submit" value= "提交">
+               <input type="button" value= "普通按钮">
+
+
+	      </fieldset>
+
+
+
+
+    </form>
+	</form>
+</body>
+</html>
